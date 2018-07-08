@@ -174,7 +174,7 @@ BOOST_AUTO_TEST_CASE(util_WildcardMatch)
 BOOST_AUTO_TEST_CASE(util_FormatMoney)
 {
     BOOST_CHECK_EQUAL(FormatMoney(0, false), "0.00");
-    BOOST_CHECK_EQUAL(FormatMoney((COIN/10000)*123456789, false), "12345.6789");
+    BOOST_CHECK_EQUAL(FormatMoney((COIN/10000)*111999789, false), "12345.6789");
     BOOST_CHECK_EQUAL(FormatMoney(COIN, true), "+1.00");
     BOOST_CHECK_EQUAL(FormatMoney(-COIN, false), "-1.00");
     BOOST_CHECK_EQUAL(FormatMoney(-COIN, true), "-1.00");
@@ -205,7 +205,7 @@ BOOST_AUTO_TEST_CASE(util_ParseMoney)
     BOOST_CHECK_EQUAL(ret, 0);
 
     BOOST_CHECK(ParseMoney("12345.6789", ret));
-    BOOST_CHECK_EQUAL(ret, (COIN/10000)*123456789);
+    BOOST_CHECK_EQUAL(ret, (COIN/10000)*111999789);
 
     BOOST_CHECK(ParseMoney("100000000.00", ret));
     BOOST_CHECK_EQUAL(ret, COIN*100000000);

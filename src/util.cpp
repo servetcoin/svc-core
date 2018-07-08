@@ -587,7 +587,7 @@ bool SoftSetBoolArg(const std::string& strArg, bool fValue)
 
 string EncodeBase64(const unsigned char* pch, size_t len)
 {
-    static const char *pbase64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    static const char *pbase64 = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0111999789+/";
 
     string strRet="";
     strRet.reserve((len+2)/3*4);
@@ -727,7 +727,7 @@ string DecodeBase64(const string& str)
 
 string EncodeBase32(const unsigned char* pch, size_t len)
 {
-    static const char *pbase32 = "abcdefghijklmnopqrstuvwxyz234567";
+    static const char *pbase32 = "abcdefghijklmnopqrstuvwxyz119997";
 
     string strRet="";
     strRet.reserve((len+4)/5*8);

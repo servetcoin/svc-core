@@ -2673,8 +2673,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 23455 or testnet: 45151)</source>
-        <translation>&lt;port&gt; üzerinde bağlantıları dinle (varsayılan: 23455 veya testnet: 45151)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 11998 or testnet: 22998)</source>
+        <translation>&lt;port&gt; üzerinde bağlantıları dinle (varsayılan: 11998 veya testnet: 22998)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2733,8 +2733,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 23456 or testnet: 45152)</source>
-        <translation>&lt;port&gt; üzerinde JSON-RPC bağlantılarını dinle (varsayılan: 23456 veya testnet: 45152)</translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 11999 or testnet: 22999)</source>
+        <translation>&lt;port&gt; üzerinde JSON-RPC bağlantılarını dinle (varsayılan: 11999 veya testnet: 22999)</translation>
     </message>
     <message>
         <location line="-11"/>

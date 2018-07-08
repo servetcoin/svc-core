@@ -2675,8 +2675,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Listen for connections on &lt;port&gt; (default: 23455 or testnet: 45151)</source>
-        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 23455 of testnet: 45151)</translation>
+        <source>Listen for connections on &lt;port&gt; (default: 11998 or testnet: 22998)</source>
+        <translation>Luister voor verbindingen op &lt;poort&gt; (standaard: 11998 of testnet: 22998)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2735,8 +2735,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-87"/>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 23456 or testnet: 45152)</source>
-        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 23456 of testnet: 45152) </translation>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 11999 or testnet: 22999)</source>
+        <translation>Wacht op JSON-RPC-connecties op &lt;poort&gt; (standaard: 11999 of testnet: 22999) </translation>
     </message>
     <message>
         <location line="-11"/>
