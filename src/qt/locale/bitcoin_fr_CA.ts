@@ -2625,8 +2625,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or servercoind</source>
-        <translation>Envoyer commande à -server ou servercoind</translation>
+        <source>Send command to -server or servetcoind</source>
+        <translation>Envoyer commande à -server ou servetcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2645,13 +2645,13 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: servercoin.conf)</source>
-        <translation>Spécifier le fichier de configuration (defaut: servercoin.conf)</translation>
+        <source>Specify configuration file (default: servetcoin.conf)</source>
+        <translation>Spécifier le fichier de configuration (defaut: servetcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: servercoind.pid)</source>
-        <translation>Spécifier le fichier pid (defaut: servercoind.pid)
+        <source>Specify pid file (default: servetcoind.pid)</source>
+        <translation>Spécifier le fichier pid (defaut: servetcoind.pid)
 </translation>
     </message>
     <message>

@@ -2611,8 +2611,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or servercoind</source>
-        <translation>Отправить команду на -server или servercoind</translation>
+        <source>Send command to -server or servetcoind</source>
+        <translation>Отправить команду на -server или servetcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2632,13 +2632,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: servercoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: servercoin.conf)</translation>
+        <source>Specify configuration file (default: servetcoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: servetcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: servercoind.pid)</source>
-        <translation>Указать pid-файл (по умолчанию: servercoind.pid)</translation>
+        <source>Specify pid file (default: servetcoind.pid)</source>
+        <translation>Указать pid-файл (по умолчанию: servetcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

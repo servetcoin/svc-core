@@ -2626,8 +2626,8 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or servercoind</source>
-        <translation>Skicka kommando till -server eller servercoind</translation>
+        <source>Send command to -server or servetcoind</source>
+        <translation>Skicka kommando till -server eller servetcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2646,13 +2646,13 @@ Detta betyder att en avgift på minst %2 krävs.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: servercoin.conf)</source>
-        <translation>Ange konfigurationsfilen (standard: servercoin.conf)</translation>
+        <source>Specify configuration file (default: servetcoin.conf)</source>
+        <translation>Ange konfigurationsfilen (standard: servetcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: servercoind.pid)</source>
-        <translation>Ange pid filen (standard servercoind.pid)</translation>
+        <source>Specify pid file (default: servetcoind.pid)</source>
+        <translation>Ange pid filen (standard servetcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

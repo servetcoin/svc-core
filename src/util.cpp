@@ -988,7 +988,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\ServetCoin
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\ServetCoin
     // Mac: ~/Library/Application Support/ServetCoin
-    // Unix: ~/.servercoin
+    // Unix: ~/.servetcoin
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "ServetCoin";
@@ -1006,7 +1006,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "ServetCoin";
 #else
     // Unix
-    return pathRet / ".servercoin";
+    return pathRet / ".servetcoin";
 #endif
 #endif
 }
@@ -1048,7 +1048,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "servercoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "servetcoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1079,7 +1079,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "servercoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "servetcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

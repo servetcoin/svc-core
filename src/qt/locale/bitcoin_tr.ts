@@ -2623,8 +2623,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or servercoind</source>
-        <translation>-sunucu veya servercoind&apos;ye komut gönder</translation>
+        <source>Send command to -server or servetcoind</source>
+        <translation>-sunucu veya servetcoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2643,12 +2643,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: servercoin.conf)</source>
-        <translation>Konfigürasyon dosyasını belirt (varsayılan: servercoin.conf)</translation>
+        <source>Specify configuration file (default: servetcoin.conf)</source>
+        <translation>Konfigürasyon dosyasını belirt (varsayılan: servetcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: servercoind.pid)</source>
+        <source>Specify pid file (default: servetcoind.pid)</source>
         <translation>pid dosyasını belirt (varsayılan: ServetCoin.pid)</translation>
     </message>
     <message>

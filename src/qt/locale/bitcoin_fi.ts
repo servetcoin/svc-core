@@ -2623,8 +2623,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or servercoind</source>
-        <translation>Syötä komento kohteeseen -server tai servercoind</translation>
+        <source>Send command to -server or servetcoind</source>
+        <translation>Syötä komento kohteeseen -server tai servetcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2643,12 +2643,12 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: servercoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: servercoin.conf)</translation>
+        <source>Specify configuration file (default: servetcoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: servetcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: servercoind.pid)</source>
+        <source>Specify pid file (default: servetcoind.pid)</source>
         <translation>Määritä prosessitiedosto (oletus: ServetCoin.pid)</translation>
     </message>
     <message>

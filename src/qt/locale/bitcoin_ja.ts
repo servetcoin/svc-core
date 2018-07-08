@@ -2624,8 +2624,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or servercoind</source>
-        <translation>-server か servercoindへコマンドを送る。</translation>
+        <source>Send command to -server or servetcoind</source>
+        <translation>-server か servetcoindへコマンドを送る。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2644,13 +2644,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: servercoin.conf)</source>
-        <translation>設定ファイルを特定する (デファルト: servercoin.conf)</translation>
+        <source>Specify configuration file (default: servetcoin.conf)</source>
+        <translation>設定ファイルを特定する (デファルト: servetcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: servercoind.pid)</source>
-        <translation>pid ファイルを特定する (デフォルト: servercoind.pid)</translation>
+        <source>Specify pid file (default: servetcoind.pid)</source>
+        <translation>pid ファイルを特定する (デフォルト: servetcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

@@ -2624,8 +2624,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or servercoind</source>
-        <translation>Pošli príkaz na -server alebo servercoind</translation>
+        <source>Send command to -server or servetcoind</source>
+        <translation>Pošli príkaz na -server alebo servetcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2644,13 +2644,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: servercoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: servercoin.conf)</translation>
+        <source>Specify configuration file (default: servetcoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: servetcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: servercoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: servercoind.pid)</translation>
+        <source>Specify pid file (default: servetcoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: servetcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

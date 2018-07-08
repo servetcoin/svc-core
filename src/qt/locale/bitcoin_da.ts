@@ -2625,8 +2625,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or servercoind</source>
-        <translation>Send kommando til-server eller servercoind</translation>
+        <source>Send command to -server or servetcoind</source>
+        <translation>Send kommando til-server eller servetcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2645,13 +2645,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: servercoin.conf)</source>
-        <translation>Angiv konfigurationsfil (default: servercoin.conf)</translation>
+        <source>Specify configuration file (default: servetcoin.conf)</source>
+        <translation>Angiv konfigurationsfil (default: servetcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: servercoind.pid)</source>
-        <translation>Angiv pid fil (standard: servercoind.pid)</translation>
+        <source>Specify pid file (default: servetcoind.pid)</source>
+        <translation>Angiv pid fil (standard: servetcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
