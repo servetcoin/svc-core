@@ -81,7 +81,7 @@ public:
 uint64_t nLastBlockTx = 0;
 uint64_t nLastBlockSize = 0;
 int64_t nLastCoinStakeSearchInterval = 0;
- 
+
 // We want to sort transactions by priority and fee, so:
 typedef boost::tuple<double, double, CTransaction*> TxPriority;
 class TxPriorityCompare
@@ -484,6 +484,9 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
 
 bool CheckStake(CBlock* pblock, CWallet& wallet)
 {
+    if (nBestHeight <= LAST_POW_BLOCK)
+      return error("CheckStake() : block height lower than %s, proof-of-stake block yet to start", LAST_POW_BLOCK);
+
     uint256 proofHash = 0, hashTarget = 0;
     uint256 hashBlock = pblock->GetHash();
 
