@@ -2037,9 +2037,6 @@ bool CBlock::CheckBlock(bool fCheckPOW, bool fCheckMerkleRoot, bool fCheckSig) c
 
     if (IsProofOfStake())
     {
-        if (nBestHeight <= LAST_POW_BLOCK)
-          return DoS(100, error("CheckBlock() : block height lower than %s, proof-of-stake block yet to start", LAST_POW_BLOCK));
-
         // Coinbase output should be empty if proof-of-stake block
         if (vtx[0].vout.size() != 1 || !vtx[0].vout[0].IsEmpty())
             return DoS(100, error("CheckBlock() : coinbase output not empty for proof-of-stake block"));
@@ -2271,9 +2268,6 @@ bool ProcessBlock(CNode* pfrom, CBlock* pblock)
         // ppcoin: check proof-of-stake
         if (pblock->IsProofOfStake())
         {
-            if (mapBlockIndex[hash]->nHeight <= LAST_POW_BLOCK)
-              return error("ProcessBlock() : block height lower than %s, proof-of-stake block yet to start", LAST_POW_BLOCK);
-
             // Limited duplicity on stake: prevents block flood attack
             // Duplicate stake allowed only when there is orphan child block
             if (setStakeSeenOrphan.count(pblock->GetProofOfStake()) && !mapOrphanBlocksByPrev.count(hash) && !Checkpoints::WantedByPendingSyncCheckpoint(hash))
