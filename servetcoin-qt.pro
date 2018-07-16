@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = ethgold-qt
+TARGET = servetcoin-qt
 VERSION = 1.0.7
 INCLUDEPATH += src src/json src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
